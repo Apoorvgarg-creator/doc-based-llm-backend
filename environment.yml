@@ -1,6 +1,6 @@
 # environment.yml
 
-name: /Users/apoorvgarg/github-projects/aiplanet-test/backend/aiplanet-backend
+name: aiplanetbd
 channels:
   - conda-forge
   - defaults
@@ -150,4 +150,4 @@ dependencies:
       - websockets==12.0
       - wrapt==1.16.0
       - zipp==3.18.1
-prefix: /Users/apoorvgarg/github-projects/aiplanet-test/backend/aiplanet-backend
+prefix: /Users/apoorvgarg/github-projects/aiplanet-test/doc-based-llm-backend/aiplanetbd
