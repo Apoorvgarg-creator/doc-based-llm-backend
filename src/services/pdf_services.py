@@ -14,7 +14,7 @@ def create_pdf_document(db: Session, pdf_data: PDFDocumentCreate):
     # Check if the filename already exists
     existing_pdf = get_pdf_by_filename(db, pdf_data.filename)
     if existing_pdf:
-        raise ValueError("Filename already exists")
+        return existing_pdf
 
     file_content = extract_text.extract_pdf_content(pdf_data.file_path)
     if file_content:

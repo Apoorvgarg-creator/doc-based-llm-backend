@@ -5,7 +5,6 @@ from langchain.vectorstores import Chroma
 from langchain.embeddings.ollama import OllamaEmbeddings
 from langchain.prompts import PromptTemplate
 import os
-from utils.extract_text import extract_pdf_content 
 from langchain.chains import RetrievalQA
 
 PERSIST_DIRECTORY = 'docs/chroma/'
